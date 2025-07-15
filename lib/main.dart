@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_shtrih_fr_ffi/flutter_shtrih_fr.dart';
+import 'package:flutter_shtrih_fr_ffi/flutter_shtrih_fr_ffi.dart';
 
 void main() {
   runApp(
@@ -21,9 +21,9 @@ class StrihFrDemoScreen extends StatefulWidget {
 class _StrihFrDemoScreenState extends State<StrihFrDemoScreen> {
   final FlutterStrihFrFFI _strihFr = FlutterStrihFrFFI();
 
-  static const int _comNumber = 8;
+  static const int _comNumber = 3;
   static const int _baudRate = 115200;
-  static const int _timeout = 5000;
+  static const int _timeout = 15000;
   static const int _operatorPassword = 30;
 
   String _status = 'Ready';

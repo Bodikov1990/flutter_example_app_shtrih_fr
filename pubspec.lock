@@ -81,9 +81,10 @@ packages:
   flutter_shtrih_fr_ffi:
     dependency: "direct main"
     description:
-      path: "../flutter_shtrih_fr_ffi"
-      relative: true
-    source: path
+      name: flutter_shtrih_fr_ffi
+      sha256: "7e2433c007a3026f05d947f0ae9df97ae3dd7f8691ae3bbc9901ff9fdc36ccac"
+      url: "https://pub.dev"
+    source: hosted
     version: "0.1.1"
   flutter_test:
     dependency: "direct dev"
